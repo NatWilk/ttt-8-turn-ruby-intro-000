@@ -37,5 +37,7 @@ def turn(board)
   valid_move?(board, index)
   if valid_move?(board, index) == false
     puts "Please enter 1-9:"
+  else
+    move(board, index, token = "X")
   end
 end
